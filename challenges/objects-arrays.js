@@ -134,6 +134,15 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
+
+zooAnimals.forEach(function(currentValue) {
+  displayNames.push(
+    `Name: ${currentValue.animal_name}, Scientific: ${
+      currentValue.scientific_name
+    }`
+  );
+});
+
 console.log(displayNames);
 
 /* Request 2: .map()
