@@ -42,7 +42,7 @@ function greeting(firstName, lastName) {
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: The function is bundled together using closure, you can access an outer and inner function using closer from outside or in.
 
 
 const external = "I'm outside the function";
